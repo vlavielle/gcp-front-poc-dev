@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+    .global-layout {
+        @apply bg-gradient-to-tr from-[#244B5A] from-10% bg-[#02B1B0]  to-emerald-500 to-90%  text-white min-h-screen flex flex-col;  
+    }
+}
+
+.bg-custom{
+    @apply bg-gradient-to-r from-cyan-500 to-blue-500;
+}
+
+.bg-root{
+    @apply bg-[url('../assets/vtm_1.png')] bg-no-repeat bg-cover bg-center;
+}
+
+.card-banner{
+    @apply bg-[url('../assets/vtm_banner1.png')] bg-no-repeat bg-cover md:bg-center;
+}
+
+.flex-center {
+    @apply flex justify-center items-center;  
+}
